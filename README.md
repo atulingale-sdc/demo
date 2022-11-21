@@ -16,7 +16,7 @@ git remote add origin https://github.com/atulingale-sdc/demo.git
 git checkout master
 ```
 
-## Setup Redis
+## Install Redis
 ```
 sudo apt-get update
 sudo apt install redis
