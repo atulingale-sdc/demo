@@ -49,11 +49,19 @@ alembic upgrade heads
 python auth_service &
 ```
 
+```
+to access auth service visit - http://127.0.0.1:8080/docs
+```
+
 # Setup weather service
 ```
 cd services/weather-service/ && pipenv install
 pipenv shell
+alembic upgrade heads
 python weather_service &
+```
+```
+to access weather service visit - http://127.0.0.1:8080/docs
 ```
 
 ## login credentials
