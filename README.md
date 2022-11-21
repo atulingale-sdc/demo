@@ -24,6 +24,11 @@ redis-cli --version
 sudo systemctl status redis
 ```
 
+## Install Pipenv
+```
+sudo apt install python3-pip
+python3 -m pip install --user pipenv
+```
 
 - [ ] [Set up project integrations](https://gitlab.com/twigsoftwares/agreco-backend/-/settings/integrations)
 
